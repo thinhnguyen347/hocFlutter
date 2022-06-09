@@ -2,7 +2,7 @@
 
 import 'package:myapp/hinh_vuong.dart';
 import 'package:myapp/person_sample.dart';
-import 'xep_loai_hs.dart';
+import 'package:myapp/xep_loai_hs.dart';
 
 void main() {
 // Bai 0
