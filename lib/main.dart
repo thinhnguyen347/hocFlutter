@@ -5,6 +5,7 @@ import 'package:myapp/day2/person_sample.dart';
 import 'package:myapp/day2/xep_loai_hs.dart';
 import 'package:myapp/day3/list-of-number.dart';
 import 'package:myapp/day3/quan_ly_tien_dien.dart';
+import 'package:myapp/day3/try-catch-ex.dart';
 
 void main() {
 //BT Buổi 3
@@ -23,6 +24,10 @@ void main() {
 
   var bienLai = BienLai(chiSoMoi: 5123, chiSoCu: 4231);
   bienLai.chiPhiSuDungDien();
+
+  List ageList = [1, 3, 5, 8, 4, 20, 25, 26, -30, 15.5, 40, 65];
+  var age = Age(ageList: ageList);
+  age.checkAge();
 
 //BT Buổi 2
   print('------------------BT Buổi 2------------------------');

@@ -23,7 +23,7 @@ class NumberList {
           numAmount++;
         }
       }
-      print('Giá trị trung bình của dãy số là ${sum / numAmount}');
+      print('Giá trị trung bình của dãy số $numList là ${sum / numAmount}');
     }
   }
 
@@ -38,7 +38,7 @@ class NumberList {
           min = number;
         }
       }
-      print('Giá trị trung bình của dãy số là $min');
+      print('Giá trị nhỏ nhất của dãy số $numList là $min');
     }
   }
 }
