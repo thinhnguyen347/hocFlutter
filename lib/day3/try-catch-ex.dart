@@ -19,7 +19,13 @@ class Age {
           if (ageList[i] < 0) {
             throw FormatException('Tuổi ${ageList[i]} tại vị trí thứ ${i+1} không hợp lệ vì nhỏ hơn 0');
           } 
-          
+        }
+      } catch (e) {
+        print(e.toString());
+      }
+
+      try {
+        for (int i = 0; i < ageList.length; i++) {
           if (ageList[i] % 1 != 0) {
             throw FormatException('Tuổi ${ageList[i]} tại vị trí thứ ${i+1} không hợp lệ vì là số thập phân');
           }
