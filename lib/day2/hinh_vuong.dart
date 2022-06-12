@@ -1,20 +1,20 @@
 
-import 'package:myapp/hinh_chu_nhat.dart';
+import 'package:myapp/day2/hinh_chu_nhat.dart';
 
 class HinhVuong extends HinhChuNhat{
   HinhVuong({required double chieuDaiCanh}): super(chieuDai: chieuDaiCanh, chieuRong: chieuDaiCanh);
 
 
-tinhChuVi(){
+double tinhChuVi(){
    return super.tinhChuVi();
  }
 
-tinhDienTich(){
+double tinhDienTich(){
 return super.tinhDienTich();
 }
 
 @override
 String getInfor() {
-    return 'Hình vuông cạnh $chieuDai có chu vi ${this.tinhChuVi()} và diện tích ${this.tinhDienTich()}';
+    return 'Hình vuông cạnh $chieuDai có chu vi ${tinhChuVi()} và diện tích ${tinhDienTich()}';
   }
 }

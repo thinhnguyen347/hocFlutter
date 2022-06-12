@@ -11,10 +11,10 @@ class Person extends PersonSample {
   Person({required this.id, required this.name});
 
   int getYear() {
-    return this._birthYear;
+    return _birthYear;
   }
 
-  int setYear(int year) => this._birthYear = year;
+  int setYear(int year) => _birthYear = year;
 
   @override
   getAge() {
@@ -25,6 +25,6 @@ class Person extends PersonSample {
   @override
   getInfor() {
     // ignore: avoid_print
-    print ('Tuổi của $name năm nay là ${this.getAge()}');
+    print ('Tuổi của $name năm nay là ${getAge()}');
   }
 }
