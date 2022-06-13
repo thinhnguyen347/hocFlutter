@@ -26,7 +26,7 @@ Future<void> gioiThieuQueQuan() async {
   var tuoi = await gioiThieuTuoi();
   print(tuoi);
   return Future.delayed(
-    const Duration(seconds: 5),
+    const Duration(seconds: 2),
     () => print('Toi o Ha Noi'),
   );
 }
